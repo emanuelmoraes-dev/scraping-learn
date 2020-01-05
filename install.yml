@@ -1,0 +1,6 @@
+install:
+    build: .
+    user: root
+    command: sh /usr/src/sh/install.sh
+    volumes:
+        - .:/usr/src/app

@@ -1,0 +1,6 @@
+prod:
+    build: .
+    user: root
+    command: sh /usr/src/sh/prod.sh
+    volumes:
+        - .:/usr/src/app

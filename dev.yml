@@ -1,0 +1,6 @@
+dev:
+    build: .
+    user: root
+    command: sh /usr/src/sh/dev.sh
+    volumes:
+        - .:/usr/src/app
