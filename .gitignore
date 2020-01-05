@@ -1,1 +1,3 @@
 env/
+host-env/
+**/*/__pycache__
