@@ -5,5 +5,5 @@ if [ ! -d /usr/src/app/env ]; then
 fi
 
 source /usr/src/app/env/bin/activate
-python /usr/src/app/src/scraper.py
+scrapy runspider /usr/src/app/src/scraper.py
 deactivate
