@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ ! -d /usr/src/app/env ]; then
-    virtualenv env
+    virtualenv /usr/src/app/env
 fi
 
 source /usr/src/app/env/bin/activate
