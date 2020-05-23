@@ -1,4 +1,4 @@
-FROM emanuelmoraesdev/python3-env:1.0-alpine-default-venv
+FROM emanuelmoraesdev/python3-env:1.0-alpine-wscrap-venv
 WORKDIR /usr/src/app
 ADD . .
 RUN mkdir -p /usr/src/sh && \
